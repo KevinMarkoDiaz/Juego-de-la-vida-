@@ -78,10 +78,9 @@ function App() {
 
           <div
             onClick={handleGameStart}
-
             className='grid__button'
           >
-            <p>iniciar</p>
+            <p>Iniciar</p>
           </div>
           <div
             onClick={handleGamepause}
@@ -93,10 +92,10 @@ function App() {
             onClick={handleGamerestart}
             className='grid__button'
           >
-            <p>reiniciar</p>
+            <p>Reiniciar</p>
           </div>
         </div>
-        <p>generacion #{turnOfLife}</p>
+        <p>Generacion #{turnOfLife}</p>
       </div>
       <div className="grid__container">
         {cellsState.map((row, columnIndex) =>
