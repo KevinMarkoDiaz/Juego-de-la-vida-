@@ -1,0 +1,15 @@
+.grid__row{   
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(138, 138, 138);    
+    border-radius: 50%;
+    margin: 0.2rem;
+}
+.grid__row--black{
+    background-color: rgb(82, 177, 255);
+}
+
+.grid__row--white{
+    background-color: #fff;
+}

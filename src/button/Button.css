@@ -1,0 +1,14 @@
+.grid__button{
+    background-color:  rgb(99, 198, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 2rem;
+}
+.grid__button p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0px;
+}
